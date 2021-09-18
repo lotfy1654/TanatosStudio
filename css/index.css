@@ -1,0 +1,551 @@
+/* 
+Start Our Framework*/
+* {
+  box-sizing: border-box;
+}
+
+
+.main-color {
+  color: #f7600e;
+}
+
+.main-white {
+  color: #FFF;
+}
+
+/* #353b42 */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+section .subscribe, header {
+  background-size: cover;
+}
+
+section .our-work .items-box .col-sm, section .our-work .items-box .item .over button, section .our-work button, section .features .box i, header .buttons button {
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+/* End Our Framework */
+/* Start Header */
+header {
+  background: url("../image/01.png");
+  color: #fFF;
+}
+header ul li a {
+  color: #fff !important;
+}
+header .overlay {
+  background-color: rgba(49, 55, 61, 0.9);
+  width: 100%;
+  height: 100%;
+}
+header .buttons button {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  background: transparent;
+  padding: 10px 0;
+  margin: 0 9px;
+  width: 150px;
+  font-size: 16px;
+  border: 1px solid #f7600e;
+}
+header .buttons button:hover {
+  background-color: #f7600e;
+  border: 1px solid #f7600e;
+  color: #FFF;
+}
+header .buttons .hire {
+  margin-bottom: 5px;
+}
+header .intro h1 {
+  margin: 20px 0 25px;
+  font-size: 50px;
+  font-weight: 800;
+}
+header .intro p {
+  margin: 10px 0 30px;
+  line-height: 1.9;
+  font-size: 20px;
+  color: #E2E2E2;
+}
+header .arrow {
+  padding: 15px;
+}
+header .arrow span {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  margin: auto;
+  padding: 7px;
+  width: 30px;
+  border: 2px solid #FFF;
+  cursor: pointer;
+}
+header .arrow span:hover {
+  border: 2px solid #f7600e;
+  color: #f7600e;
+}
+
+/* End Header */
+/* Start Features */
+section .features {
+  padding: 80px 0;
+  overflow: hidden;
+}
+
+section .features .box i {
+  color: #f7600e;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  margin: 20px 0;
+  border: 2px solid #CCC;
+  width: 100PX;
+  height: 100px;
+  line-height: 100px;
+}
+
+section .features .box i:hover {
+  border: 2px solid #f7600e;
+  background-color: #f7600e;
+  color: #FFF;
+}
+
+section .features .box h4 {
+  text-transform: capitalize;
+  font-weight: normal;
+  color: #505050;
+}
+
+section .features .box p {
+  padding: 5px 40px 0;
+  line-height: 1.9;
+  color: #888;
+}
+
+/* End Features */
+/* Start Subscribe */
+section .subscribe {
+  background: url("../image/02.png");
+  color: #FFF;
+}
+
+section .subscribe .overlays {
+  background-color: rgba(49, 55, 61, 0.7);
+  width: 100%;
+  height: 100%;
+}
+
+section .subscribe form {
+  margin: auto;
+  padding: 100px 0;
+  text-align: center;
+}
+
+section .subscribe form input {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  height: 45px;
+  width: 350px;
+  font-size: 20px;
+  margin-right: 40px;
+  /* position: relative;
+  top: 3px; */
+  border: none;
+}
+
+section .subscribe form input::placeholder {
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+section .subscribe button {
+  background-color: #f7600e;
+  color: #FFF;
+  padding: 10px;
+  font-size: 15px;
+}
+
+@media (max-width: 576px) {
+  section .subscribe button {
+    margin-top: 20px;
+  }
+}
+/* End Subscribe */
+/* Start Our Work */
+section .our-work {
+  padding: 50px 0;
+}
+
+section .our-work h2 {
+  font-weight: 600;
+  font-size: 35px;
+}
+
+section .our-work h2 ~ p {
+  line-height: 2;
+  margin: 10px 0 40px;
+}
+
+section .our-work button {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  background: transparent;
+  border: 2px solid #CCC;
+  width: 120px;
+  padding: 10px;
+  margin-top: 20px;
+  color: #555;
+}
+
+section .our-work button:hover {
+  color: #FFF;
+  border: 2px solid #f7600e;
+  background-color: #f7600e;
+}
+
+/* section .our-work .items-box{
+    overflow: hidden;
+} */
+/* section .our-work .items-box .item{
+    float: left;
+    width: 33%;
+    height: 403px;
+    overflow: hidden;
+    margin-left: 1.333px;
+    margin-bottom: 12px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    position: relative;
+} */
+section .our-work .items-box .item:hover .over {
+  display: block;
+}
+
+section .our-work .items-box .item .over {
+  position: absolute;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  top: 0;
+  left: 0;
+  width: 95%;
+  height: 95%;
+  margin: 9px;
+  background-color: rgba(247, 96, 14, 0.8);
+  color: #FFF;
+  display: none;
+}
+
+section .our-work .items-box .item .over h4 {
+  font-size: 24px;
+  margin-top: 80px;
+  margin-bottom: 0;
+}
+
+section .our-work .items-box .item .over p {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  line-height: 2;
+}
+
+section .our-work .items-box .item .over button {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid #FFF;
+  width: 180px;
+  color: #fff;
+  padding: 10px;
+}
+
+/* section .our-work .items-box .item .over button:hover{
+    background-color: #FFF;
+    border: #FFF;
+    color: #f7600e;
+    padding: 10px;
+
+}  */
+section .our-work .items-box .row {
+  margin: 0;
+}
+
+section .our-work .items-box .col-sm {
+  padding: 0;
+}
+
+section .our-work .items-box .row img {
+  width: 100%;
+  padding: 10px;
+}
+
+/* End Our Work */
+/* Start Testimonails */
+section .testim {
+  background: url("../image/04.png");
+  background-size: cover;
+}
+
+section .testim .overlay-two {
+  background-color: rgba(49, 55, 61, 0.8);
+  width: 100%;
+  height: 100%;
+}
+
+section .testim .client {
+  padding: 50px 0;
+  font-size: 20px;
+  color: #FFF;
+}
+
+section .testim .client img {
+  padding-bottom: 20px;
+}
+
+section .testim .client p {
+  line-height: 2;
+  font-style: italic;
+}
+
+@media (max-width: 576px) {
+  section .testim .client p {
+    font-size: 15px;
+  }
+}
+/* End Testimonails */
+/* Start Our Team */
+section .our-team {
+  padding: 50px 0;
+}
+
+section .our-team h2 {
+  font-size: 35px;
+  margin-bottom: 0;
+}
+
+section .our-team p {
+  margin: 10px 0 40px;
+  line-height: 2;
+  color: #666;
+  font-size: 20px;
+}
+
+section .our-team .the-team {
+  overflow: hidden;
+  color: #888;
+}
+
+section .our-team .the-team .persone h3 {
+  padding-top: 30px;
+}
+
+section .our-team .the-team .persone img {
+  filter: gray;
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+}
+
+section .our-team .the-team .persone:hover img {
+  filter: none;
+  filter: grayscale(0);
+  -webkit-filter: none;
+}
+
+section .our-team .the-team .persone:hover {
+  color: #555;
+}
+
+section .our-team .the-team .persone:hover .social-icon .fa-facebook {
+  background-color: #3b5998;
+}
+
+section .our-team .the-team .persone:hover .social-icon .fa-twitter {
+  background-color: #1da1f2;
+}
+
+section .our-team .the-team .persone:hover .social-icon .fa-google-plus {
+  background-color: #dd4b39;
+}
+
+section .our-team .the-team .persone p {
+  font-size: 15px;
+  padding: 0 15px;
+}
+
+section .our-team .the-team .persone .social-icon i {
+  background-color: #9da1a5;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  color: #FFF;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/* End Our Team */
+/* Start Form */
+section .contact {
+  background: url("../image/07.png");
+  background-size: cover;
+  color: #FFF;
+}
+
+section .contact .overlay-three {
+  background-color: rgba(49, 55, 61, 0.8);
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+}
+
+section .contact h2 {
+  font-size: 35px;
+}
+
+section .contact form {
+  width: 700px;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+}
+
+section .contact form input {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  width: 48%;
+  margin-left: 2%;
+  height: 40px;
+  line-height: 4px;
+  /* float: left; */
+  padding: 0 10px;
+  border: 2px solid #CCC;
+}
+
+section .contact form input::placeholder,
+section .contact form textarea::placeholder {
+  padding-left: 15px;
+}
+
+section .contact form input[type=text] {
+  float: left;
+  margin-left: 1%;
+}
+
+section .contact form input[type=email] {
+  float: right;
+  margin-right: 1%;
+}
+
+section .contact form textarea {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+section .contact form .info {
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+section .contact form .info button {
+  float: left;
+  background-color: #f7600e;
+  color: #FFF;
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #f7600e;
+  font-size: 20px;
+}
+
+section .contact form .info .social {
+  float: right;
+}
+
+section .contact form .info .social i {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #9da1a5;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  color: #FFF;
+}
+
+section .contact form .info .social .fa-facebook {
+  background-color: #3b5998;
+}
+
+section .contact form .info .social .fa-twitter {
+  background-color: #1da1f2;
+}
+
+section .contact form .info .social .fa-google-plus {
+  background-color: #dd4b39;
+}
+
+section .contact form .info .social .fa-instagram {
+  background-color: #c13584;
+}
+
+/* End Form */
+/* Start Footer */
+section footer {
+  background-color: #31363c;
+  color: #fff;
+  overflow: hidden;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+section footer .copyright {
+  float: left;
+}
+section footer .design {
+  float: right;
+}
+
+/* End Footer */
+
+/*# sourceMappingURL=index.css.map */
